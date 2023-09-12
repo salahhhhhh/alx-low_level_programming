@@ -1,7 +1,8 @@
 #include <stdio.h>
-void print_alphabet (void)
+void print_alphabet(void)
 {
 	char c;
+
 	c = 'a';
 	while (c <= 'z')
 	{
@@ -10,8 +11,6 @@ void print_alphabet (void)
 	}
 	putchar ('\n');
 }
-#include "main.h"
-
 /**
  * main - check the code
  *
@@ -19,7 +18,6 @@ void print_alphabet (void)
  */
 int main(void)
 {
-	print_alphabet();
-	return (0);
+    print_alphabet();
+    return (0);
 }
-
