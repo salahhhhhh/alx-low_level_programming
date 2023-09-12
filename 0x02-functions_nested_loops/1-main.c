@@ -1,15 +1,5 @@
-#include <stdio.h>
-void print_alphabet(void)
-{
-	char c;
+#include "main.h"
 
-	c = 'a';
-	while (c <= 'z')
-	{
-		putchar (c);
-		c++;
-	}
-}
 /**
  * main - check the code
  *
