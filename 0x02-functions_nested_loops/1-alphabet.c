@@ -9,7 +9,6 @@ void print_alphabet(void)
 		putchar (c);
 		c++;
 	}
-	putchar ('\n');
 }
 /**
  * main - check the code
