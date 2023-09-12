@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 void print_alphabet(void)
 {
 	char c;
@@ -6,9 +6,10 @@ void print_alphabet(void)
 	c = 'a';
 	while (c <= 'z')
 	{
-		putchar (c);
+		_putchar (c);
 		c++;
 	}
+	_putchar ('\n');
 }
 /**
  * main - check the code
