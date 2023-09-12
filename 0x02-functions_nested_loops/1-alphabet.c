@@ -8,7 +8,6 @@ void print_alphabet (void)
 		putchar (c);
 		c++;
 	}
-	putchar ('\n');
 }
 #include "main.h"
 
@@ -22,4 +21,3 @@ int main(void)
 	print_alphabet();
 	return (0);
 }
-
